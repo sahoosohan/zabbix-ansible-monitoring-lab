@@ -45,10 +45,6 @@ Run it from the control node:
 
 The CPU and host-unreachable runbooks are based on alerts seen in this lab. The other three are based on standard template triggers and were not triggered here.
 
-## Screenshots
-
-See the `screenshots/` folder: dashboard, hosts list, CPU problem (active and resolved), and both Ansible run recaps.
-
 ## Honest notes
 
 - The CPU trigger threshold is 5% only because the throttled lab VM reaches about 15-17% under load. A real environment would use a much higher value.
